@@ -1,3 +1,3 @@
-that takes a credit card number as input and checks if it is valid based on certain criteria. The function utilizes regular expressions (re module) to match the pattern of valid 
+This python program takes a credit card number as input and checks if it is valid based on certain criteria. The function utilizes regular expressions (re module) to match the pattern of valid 
 credit card numbers and checks for consecutive repeated digits. The main function main() prompts the user to input a credit card number and then calls the credit_card() 
 function to determine its validity. Finally, the program prints whether the entered credit card number is valid or not.
