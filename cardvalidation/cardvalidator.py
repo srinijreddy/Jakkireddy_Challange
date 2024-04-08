@@ -1,6 +1,6 @@
 import re
 
-def is_valid_credit_card(card_number):
+def credit_card(card_number):
 
     pattern = r'^[456]\d{3}(-?\d{4}){3}$'
     
@@ -17,7 +17,7 @@ def is_valid_credit_card(card_number):
 def main():
     card_number = input("Enter the credit card number: ")
 
-    if is_valid_credit_card(card_number):
+    if  credit_card(card_number):
         print("Valid credit card number")
     else:
         print("Invalid credit card number")
